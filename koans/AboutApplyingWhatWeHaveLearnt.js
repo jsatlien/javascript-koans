@@ -99,10 +99,11 @@ describe("About Applying What We Have Learnt", function() {
     /* chain() together map(), flatten() and reduce() */
     _(products).chain()
     .map(function (x) {
-        return x.ingredients
-    .map(function (y) {
-        return y
+      return x.ingredients
     })
+    .flatten()
+
+
     expect(ingredientCount['mushrooms']).toBe(FILL_ME_IN);
   });
 

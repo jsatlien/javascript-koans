@@ -1,3 +1,3 @@
 Various exercises to familiarize us with Unit Testing.
 
-[Surge Link](http://fluffy-education.surge.sh/)
+[Surge Link](http://physical-rub.surge.sh)
